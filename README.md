@@ -6,7 +6,7 @@
 
 ## Description
 
-Wedding Planner is a site that basically takes care of the hassle of plaaning weddings. It brings wedding oragnizers, wedding caterers, wedding cake makers etc. In a single platform to enable people who want to have wedding to have an easier time to plan their weddings.
+Wedding Planner is a site that basically takes care of the hassle of planing weddings. It brings wedding oragnizers, wedding caterers, wedding cake makers, wedding outfitters etc. In a single platform to enable people who want to have weddings to have an easier time to getting the resources and planning the wedding all from central system. 
 
 ## Setup/Installation Requirements
 
@@ -34,4 +34,4 @@ Brenda Okumu - brenda.okumu2@gmail.com
 
 *MIT License*
 
-Copyright (c) 2017 **Wilson Mwangeka, David Mark, Elaine Nerea, Brenda Okumu**
+Copyright (c) 2017 **Wilson Mwangeka, David Mark, Elaine Nerea, Brenda Okumu (https://github.com/Williz4/wedding-planner/blob/master/LICENSE)**
