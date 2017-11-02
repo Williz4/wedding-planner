@@ -2,7 +2,7 @@
 
 #### Wedding Planning Site that baiscally makes the wedding planning process much more easier and streamlined. 
 
-#### By **Wilson Mwangeka, David Mark, Elaine Nerea, Raymond Okwenda**
+#### By **Wilson Mwangeka, David Mark, Elaine Nerea, Brenda Okumu**
 
 ## Description
 
@@ -25,13 +25,13 @@ We used Bootstrap and CSS for structure and styling respectively. We used Javasc
 
 Feel free to contact us our respective emails: 
 
-Wilson Mwangeka -  wilsonmwangeka@gmail
+Wilson Mwangeka -  wilsonmwangeka@gmail.com
 David Mark - markkarikuki17@gmail.com
-Raymond Okwenda - rokwenda090@gmail.com
-Elaine Nerea - 
+Elaine Nerea - ela.amish@gmail.com
+Brenda Okumu - brenda.okumu2@gmail.com
 
 ### License
 
 *MIT License*
 
-Copyright (c) 2017 **Wilson Mwangeka, David Mark, Raymond Okwenda**
+Copyright (c) 2017 **Wilson Mwangeka, David Mark, Elaine Nerea, Brenda Okumu**
