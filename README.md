@@ -10,8 +10,8 @@ Wedding Planner is a site that basically takes care of the hassle of planing wed
 
 ## Setup/Installation Requirements
 
-Load the page at ()
-Select your required wedding requirements and we will do the rest for you and email you the various details
+* Load the page at ()
+* Select your preferred wedding venue, otufit, church, caterers, cake makers etc and we shall take care of the rest of the details. 
 
 ## Known Bugs
 
