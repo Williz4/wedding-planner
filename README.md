@@ -19,14 +19,14 @@ There are currently no known bugs in our system
 
 ## Technologies Used
 
-We used Bootstrap and CSS for structure and styling respectively. We used Javascript for the various animations 
+We used Bootstrap and CSS for structure and styling respectively. We used Javascript, CSS Animate & wow.JS for the various animations. 
 
 ## Support and contact details
 
 Feel free to contact us our respective emails: 
 
 Wilson Mwangeka -  wilsonmwangeka@gmail.com
-David Mark - markkarikuki17@gmail.com
+David Mark - markkariuki17@gmail.com
 Elaine Nerea - ela.amish@gmail.com
 Brenda Okumu - brenda.okumu2@gmail.com
 
