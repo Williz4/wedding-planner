@@ -212,3 +212,282 @@
   background: #dd4b39;
 }
 /*Top bar Styles*/
+
+/*Navigation Styles*/
+#header-main.affix a.navbar-brand {
+  font-size: 31px !important;
+  margin: 5px 0 0;
+}
+
+#header-main.affix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 0;
+  padding: 10px 0;
+  min-height: inherit;
+  z-index: 999;
+  background: #ffffff;
+  background: rgba(255,255,255,1);
+  border-bottom: 1px solid #efefef;
+}
+
+#header-main.affix .navbar {
+  margin-top: 0px;
+}
+
+#header-main.affix .navbar-nav > li > .dropdown-menu {
+  margin-top: 12px !important;
+}
+
+#header-main.affix .navbar-brand img {
+  width: 80%;
+  margin-top: 7px;
+}
+
+#header-main.affix .navbar-brand {
+  line-height: 38px;
+}
+
+#header-main {
+    padding: 0px;
+    position: relative;
+    background-color: #FFF;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    font-family: raleway;
+    z-index: 99999;
+  border-bottom: 1px solid #eee;
+}
+
+#header-main .navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+#header-main .navbar-brand {
+    padding: 7px 0 0;
+}
+
+
+#header-main .navbar-brand img {
+    width: 113px;
+    height: 46px;
+}
+
+#header-main .navbar {
+  margin-bottom: 0;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0px;
+  margin: 2px 0px 0px;
+  list-style: outside none none;
+  font-size: 14px;
+  background-color: #FFF;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+  background-clip: padding-box;
+}
+
+#header-main .yamm .nav,
+  #header-main .yamm .collapse,
+  #header-main .yamm .dropup,
+  #header-main .yamm .dropdown {
+  position: static;
+}
+
+#header-main .yamm .container {
+  position: relative;
+}
+
+#header-main .yamm .dropdown-menu {
+  left: auto;
+  right: auto;
+}
+
+
+.white-wrapper .testimonial h3,
+  #header-main .yamm-fw .dropdown-menu li a {
+  color: #262626 !important;
+}
+
+#header-main .yamm-fw .dropdown-menu li a:before {
+  font-family: "FontAwesome";
+  content: "\f105";
+  font-size: 13px;
+  padding-right: 5px;
+}
+
+#header-main .yamm-fw .dropdown-menu li {
+  list-style: none;
+  padding: 0;
+}
+
+#header-main .yamm-fw .nav.navbar-right .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+
+#header-main .yamm .yamm-content {
+  padding: 20px;
+}
+
+#header-main a:hover {
+  text-decoration: none;
+}
+
+#header-main .dropdown-menu li a:focus,
+  #header-main .dropdown-menu li a:active,
+  #header-main .dropdown-menu li a:hover {
+  background-color: #fff;
+}
+
+#header-main .yamm img {
+  margin-bottom: 10px;
+}
+
+#header-main .dropdown-menu,
+  #header-main .yamm .dropdown.yamm-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  box-shadow: none;
+  margin-top: -1px;
+  border: none;
+  border-top: 3px solid #fff;
+z-index: 999999;
+}
+
+#header-main .navbar-nav > li > a:focus,
+#header-main .navbar-nav > li > a {
+  color: #262626;
+  padding: 35px 18px 34px;
+  font-size: 14px;
+  overflow: hidden;
+  position: relative;
+  z-index: 99999;
+}
+
+#header-main .navbar-nav > li:hover > a ,
+#header-main .navbar-nav > li > a:hover {
+background:transparent !important;
+}
+
+
+#header-main .dropdown-menu li a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  padding: 15px 20px;
+  font-size: 12px;
+  color: #262626 !important;
+  background: transparent !important;
+  font-weight:500;
+}
+
+#header-main .dropdown-menu li a:hover {
+  color: #8dc73f !important;
+  background: #fff !important;
+}
+
+#header-main .dropdown-menu {
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+
+#header-main .yamm-fw .dropdown-menu li a {
+  padding: 11px 0px;
+  font-size: 13px;
+  font-weight:500;
+}
+
+#header-main .yamm-fw .dropdown-menu li a:hover {
+  background: transparent !important;
+  color: #8dc73f !important;
+}
+
+#header-main .dropdown-menu li {
+  float: none;
+  display: block;
+  margin: 0;
+  text-align: left;
+  border: 0;
+  border-bottom: 1px solid #e1e1e1;
+  position: relative;
+}
+
+#header-main .dropdown-menu li:last-child {
+  border-bottom: 0;
+}
+
+#header-main .navbar-nav > li > a:hover,
+  #header-main .navbar-default .navbar-nav > .open > a,
+  #header-main .navbar-default .navbar-nav > .open > a:hover,
+  #header-main .navbar-default .navbar-nav > .open > a:focus {
+  color: #8dc73f !important;
+}
+
+#header-main .dropdown-menu,
+  #header-main .yamm .dropdown.yamm-fw .dropdown-menu {
+  border-top-color: #8dc73f !important;
+}
+
+#header-main .yamm h3 i,
+  #header-main .yamm-fw .dropdown-menu li a:before {
+  color: #8dc73f;
+}
+
+.yamm .dropdown-submenu > .dropdown-menu {
+  top: 0px;
+  left: 100% !important;
+  margin-top: -3px !important;
+  margin-left: -1px;
+  border-radius: 0px 6px 6px;
+}
+
+#header-main .yamm .dropdown-menu {
+  right: auto;
+}
+
+.arrow-up {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    display: inline-block;
+    line-height: 0;
+    position: relative;
+    top: -1px;
+    color: #aaa;
+    margin-left: 2px;
+}
+
+#header-main .navbar-nav > li > a:hover .arrow-up {
+  color:#8DC73F;
+}
+
+#header-main .navbar-nav > li > a.active .arrow-up {
+  color:#8DC73F;
+}
+
+.navbar-brand {
+  font-family: Pacifico;
+  color: #000 !important;
+  margin-top: 12px;
+  font-size: 35px;
+}
+
+.navbar-nav {
+  float: left;
+  margin: 0 0 -1px;
+}
+/*End of Navigation Styles*/
