@@ -491,3 +491,26 @@ background:transparent !important;
   margin: 0 0 -1px;
 }
 /*End of Navigation Styles*/
+
+/*Content Styling*/
+#content {
+  margin-top: 40px;
+}
+
+#content > h1 {
+  text-align: center;
+  color: rgb(240, 199, 211);
+  margin-bottom: 40px;
+}
+
+#introduction {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+#introduction p {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+/*Content Styling Ends Here*/
