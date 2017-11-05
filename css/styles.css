@@ -501,6 +501,7 @@ background:transparent !important;
   text-align: center;
   color: rgb(240, 199, 211);
   margin-bottom: 40px;
+  font-size: 3em;
 }
 
 #content section {
@@ -527,8 +528,8 @@ background:transparent !important;
 }
 
 #periscope {
- width: 500px;
- height: 500px;
+ width: 600px;
+ height: 600px;
  border-radius: 50%;
  background-image: url(../img/periscope.jpg);
  background-attachment: fixed;
@@ -536,5 +537,46 @@ background:transparent !important;
  background-position: top center;
  margin-left: auto;
  margin-right: auto; 
+ border: 10px solid rgb(240, 199, 211);
+}
+
+#services h2 {
+  color: rgb(240, 199, 211);
+  text-align: center;
+  font-size: 2.7em;
+  margin-bottom: 40px;
 }
 /*Content Styling Ends Here*/
+
+/*Footer Styling Starts Here*/
+
+footer {
+  height: 100px;
+  text-align: center;
+  animation: colorchange 30s ease infinite;
+  -webkit-animation: colorchange 30s ease infinite;
+}
+
+footer .col-lg-6 {
+  line-height: 100px;
+}
+
+@keyframes colorchange
+{
+  0%   {background: rgb(240, 199, 211);} /*pink*/
+  25%  {background: rgb(255, 0, 0);} /*red*/
+  50%  {background: rgb(172, 43, 83);} /*purple*/
+  75%  {background: rgb(63, 188, 205);}
+  100% {background: rgb(227, 149, 125);}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0%   {background: rgb(240, 199, 211);} /*pink*/
+  25%  {background: rgb(255, 0, 0);} /*red*/
+  50%  {background: rgb(172, 43, 83);} /*purple*/
+  75%  {background: rgb(63, 188, 205);}
+  100% {background: rgb(227, 149, 125);}
+}
+
+/*Footer Styling Ends Here*/
