@@ -570,14 +570,17 @@ text-align: center;
 
 footer {
   height: 100px;
-  text-align: center;
   animation: colorchange 30s ease infinite;
   -webkit-animation: colorchange 30s ease infinite;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-footer .col-lg-6 {
+/*footer .col-lg-6 {
   line-height: 100px;
-}
+}*/
 
 footer .col-lg-6 p {
   color: rgb(255, 255, 255);
@@ -602,6 +605,8 @@ footer .col-lg-6 p {
   75%  {background: rgb(63, 188, 205);}
   100% {background: rgb(227, 149, 125);}
 }
+
+/*Footer Styling Ends Here*/
 
 .con {
   background-image: url(/home/david/Documents/wedding-planner/img/wedding3.jpg);
