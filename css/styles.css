@@ -542,6 +542,10 @@ background:transparent !important;
  border: 10px solid rgb(240, 199, 211);
 }
 
+#services {
+  width: 100%;
+}
+
 #services h2 {
   color: rgb(240, 199, 211);
   text-align: center;
@@ -549,6 +553,31 @@ background:transparent !important;
   margin-bottom: 40px;
   font-family: 'Philosopher', sans-serif;
 }
+
+#services p {
+  font-size: 1.3em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.row-img {
+  text-align: center;
+}
+
+.row-img figure {
+  margin-bottom: 40px;
+}
+
+.row-img figure img{
+  margin-bottom: 20px;
+}
+
+.row-img figure figcaption p{
+  font-size: 1.3em;
+  color: rgb(240, 199, 211);
+  font-weight: 600;
+}
+
 /*Content Styling Ends Here*/
 
 /*Footer Styling Starts Here*/
