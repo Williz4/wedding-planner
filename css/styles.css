@@ -536,6 +536,7 @@ background:transparent !important;
  background-attachment: fixed;
  background-repeat: no-repeat;
  background-position: top center;
+ background-size: contain;
  margin-left: auto;
  margin-right: auto; 
  border: 10px solid rgb(240, 199, 211);
@@ -557,11 +558,14 @@ footer {
   text-align: center;
   animation: colorchange 30s ease infinite;
   -webkit-animation: colorchange 30s ease infinite;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
-footer .col-lg-6 {
+/*footer .col-lg-6 {
   line-height: 100px;
-}
+}*/
 
 footer .col-lg-6 p {
   color: rgb(255, 255, 255);
