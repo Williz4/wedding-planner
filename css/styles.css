@@ -578,6 +578,19 @@ background:transparent !important;
   font-weight: 600;
 }
 
+#servicez figure {
+  margin-bottom: 20px; 
+  position: relative;
+  opacity: 0;
+  transform: translate(-20px);
+  transition: all 0.3s ease-in-out;
+}
+
+#servicez figure.is-showing {
+  opacity: 1;
+  transform: translate(0px);
+}
+
 /*Content Styling Ends Here*/
 
 /*Footer Styling Starts Here*/
