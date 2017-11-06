@@ -554,10 +554,7 @@ button {
 }
 
 
-.jumbotron{
-  background-image: url(img/5.png);
 
-}
 
 .toi{
   margin-left: 500px;
@@ -569,4 +566,50 @@ text-align: center;
   font-size: 45px;
   font-style: italic;
   font-family: cursive;
+}
+
+footer {
+  height: 100px;
+  text-align: center;
+  animation: colorchange 30s ease infinite;
+  -webkit-animation: colorchange 30s ease infinite;
+}
+
+footer .col-lg-6 {
+  line-height: 100px;
+}
+
+footer .col-lg-6 p {
+  color: rgb(255, 255, 255);
+  font-size: 1.3em;
+  font-family: 'Philosopher', sans-serif;
+}
+
+@keyframes colorchange
+{
+  0%   {background: rgb(240, 199, 211);} /*pink*/
+  25%  {background: rgb(255, 0, 0);} /*red*/
+  50%  {background: rgb(172, 43, 83);} /*purple*/
+  75%  {background: rgb(63, 188, 205);}
+  100% {background: rgb(227, 149, 125);}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0%   {background: rgb(240, 199, 211);} /*pink*/
+  25%  {background: rgb(255, 0, 0);} /*red*/
+  50%  {background: rgb(172, 43, 83);} /*purple*/
+  75%  {background: rgb(63, 188, 205);}
+  100% {background: rgb(227, 149, 125);}
+}
+
+.con {
+  background-image: url(../img/5.png);
+}
+
+.h1{
+  text-align: center;
+    font-size: 45px;
+    font-style: italic;
+    font-family: cursive;
 }
