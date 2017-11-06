@@ -549,7 +549,7 @@ button {
   width: 50%;
   text-align: center;
   margin-left: 400px;
-  margin-top: 200px;
+  margin-top: 500px;
 
 }
 
@@ -604,7 +604,13 @@ footer .col-lg-6 p {
 }
 
 .con {
-  background-image: url(../img/5.png);
+  background-image: url(/home/david/Documents/wedding-planner/img/wedding3.jpg);
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
 }
 
 .h1{
@@ -612,4 +618,12 @@ footer .col-lg-6 p {
     font-size: 45px;
     font-style: italic;
     font-family: cursive;
+}
+
+#go{
+  margin-bottom: 50px;
+}
+
+.btn btn-info btn-lg{
+  padding: 20px;
 }
