@@ -501,8 +501,8 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: rgb(240,199,211);;
+    color: black;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -513,7 +513,7 @@ button {
 /* Extra styles for the cancel button */
 .cancelbtn {
     padding: 14px 20px;
-    background-color: #f44336;
+    background-color: rgb(240,199,211);
 }
 
 /* Float cancel and signup buttons and add an equal width */
@@ -535,7 +535,7 @@ button {
 }
 
 /* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: //300px) {
     .cancelbtn, .signupbtn {
        width: 100%;
     }
@@ -564,8 +564,8 @@ button {
 p {
 text-align: center;
   font-size: 45px;
-  font-style: italic;
-  font-family: cursive;
+
+  font-family:'Philosopher', sans-serif
 }
 
 footer {
@@ -610,7 +610,7 @@ footer .col-lg-6 p {
 
 .con {
   background-image: url(/home/david/Documents/wedding-planner/img/wedding3.jpg);
-  height: 600px;
+  height: 800px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -622,20 +622,17 @@ footer .col-lg-6 p {
   text-align: center;
     font-size: 45px;
     font-style: italic;
-    font-family: cursive;
+    font-family: 'Philosopher', sans-serif;
 }
 
 #go{
   margin-bottom: 50px;
 }
 
-.btn btn-info btn-lg{
-  padding: 20px;
-}
 
 .dropbtn {
-    background-color: #4CAF50;
-    color: white;
+    background-color: rgb(240,199,211);;
+    color: black;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -670,5 +667,39 @@ footer .col-lg-6 p {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: rgb(240,199,211);
+}
+
+.picture{
+	padding: 40px;
+}
+
+
+#button{
+  width: 17.5em;
+  height: 5.3em;
+  background-color: rgb(240,199,211);
+  color: black;
+}
+
+.choose{
+  background-image: url(/home/david/Documents/wedding-planner/img/wedding1.jpg);
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+.text{
+  font-size: 45px;
+  color:black;
+  font-family: 'Philosopher', sans-serif;
+}
+.con hr {
+background-color: rgb(240,199,211);
+    border: solid 6px dimgrey;
+    height: 5px;
+    width: 100%;
 }
