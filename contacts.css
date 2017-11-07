@@ -703,3 +703,13 @@ background-color: rgb(240,199,211);
     height: 5px;
     width: 100%;
 }
+
+.choose p{
+  color: black;
+  background-color:rgb(240,199,211);
+   width: 300px;
+   border: 25px solid rgb(240,199,211);
+   padding: 25px;
+   margin: 10px;
+   width: 50%;
+}
