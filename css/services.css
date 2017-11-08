@@ -10,6 +10,10 @@
     font-size: 20px;
 }
 
+.row2 {
+    margin-right: -15px;
+}
+
 .container-fluid {
     padding-right: 15px;
     padding-left: 15px;
@@ -80,4 +84,84 @@
 
 .food-section {
     background-color: white;
+    color: #ff5b8b;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 5px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.btn-cake3 {
+  padding: 3px;
+}
+
+.btn-cake2 {
+  padding: 3px;
+}
+.btn-cake1 {
+  padding: 3px;
+}
+
+.fork {
+    margin: 2%;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    box-shadow: 0px 5px 5px grey;
+}
+
+.fork img {
+    height: 236px;
+    width: 250px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.columning {
+    float: left;
+    padding: 5px;
+}
+
+p.wed-cakes{
+  color: pink;
+}
+
+/* Create two equal columns that floats next to each other */
+.columning {
+    float: left;
+    padding: 5px;
+}
+
+.columning img {
+    margin-top: 12px;
+}
+
+.btn-cake6 {
+  padding: 3px;
+}
+
+.btn-cake5 {
+  padding: 3px;
+}
+.btn-cake4 {
+  padding: 3px;
 }
