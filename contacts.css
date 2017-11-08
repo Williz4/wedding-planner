@@ -684,7 +684,7 @@ footer .col-lg-6 p {
 
 .choose{
   background-image: url(/home/david/Documents/wedding-planner/img/wedding1.jpg);
-  height: 600px;
+  height: 800px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -712,4 +712,10 @@ background-color: rgb(240,199,211);
    padding: 25px;
    margin: 10px;
    width: 50%;
+
+}
+
+ h4{
+  font-family:  'Philosopher', sans-serif;
+  font-size: 15px;
 }
