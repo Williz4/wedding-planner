@@ -572,7 +572,8 @@ background:transparent !important;
   margin-bottom: 20px;
 }
 
-.row-img figure figcaption p{
+
+.row-img figure figcaption{
   font-size: 1.3em;
   color: rgb(240, 199, 211);
   font-weight: 600;
@@ -604,10 +605,6 @@ footer {
   display: flex;
   align-items: center;
 }
-
-/*footer .col-lg-6 {
-  line-height: 100px;
-}*/
 
 footer .col-lg-6 p {
   color: rgb(255, 255, 255);
