@@ -1,3 +1,5 @@
+/*attires section css*/
+
 .attire-section {
     background-color: #f0c7d3;
 }
@@ -5,7 +7,7 @@
 .text-center {
     text-align: center;
     color: black;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .container-fluid {
@@ -15,14 +17,27 @@
     margin-right: auto;
     margin-left: auto;
 }
+.hidden {
+    display: none;
+}
 
 .displayed {
   padding-bottom: 10px;
 }
 
-.displayed:hover {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+.displayed span {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  font-size: 35px;
+  z-index: 2;
+  text-align: justify;
+  font-style:oblique;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.displayed img:hover {
     opacity: .5;
 }
 
@@ -31,4 +46,38 @@
   opacity: 1;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
+}
+
+.displayed2 {
+  padding-bottom: 10px;
+}
+
+.displayed2 span {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  font-size: 35px;
+  z-index: 2;
+  text-align: justify;
+  font-style:oblique;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.displayed2 img:hover {
+    opacity: .5;
+}
+
+.displayed2 img {
+  background: #ff5b8b;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+/*food section css*/
+
+.food-section {
+    background-color: white;
 }
