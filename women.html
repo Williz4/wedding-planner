@@ -3,14 +3,14 @@
 
 	<head>
 
-		<title>Wedding Planner</title>
+		<title>White Doves</title>
 		<meta charset="UTF-8">
-  	<meta name="description" content="A Wedding Planning Plaform that makes the wedding planning experience much easier and hassel free by bringing together the various services that go into wedding planning.">
+  	<meta name="description" content="A website for a company that specializes in Weddin Dresses">
   	<meta name="keywords" content="">
   	<meta name="author" content="co-authored by Wilson Mwangeka, David Kariuki, Elaine Nerea, Brenda Okumu">
  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- 		<link rel="icon" href="img/logo.jpg">
+ 		<link rel="icon" href="img/doveslo.png">
 		<!-- Minified Bootstrap CSS -->
  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
@@ -31,82 +31,133 @@
 	</head>
 
 	<body>
+		<header class="main_h">
 
-		<!-- TOPBAR -->
-		<div id="top-bar" class="hidden-xs hidden-sm">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="top-bar-content">
-							<p>Have any questions? <span></span><i class="icon-mobile2"></i> (+254) 722-123-456 <span></span>&bull;<span></span> <i class="icon-mail3"></i> Mail us - <a href="#">info@weddingplanner.co.ke</a></p>
-						</div>
-						<div class="nav-social-icons">
-							<ul class="social-icons">
-								<li class="facebook">
-									<a href="http://facebook.com" target="_blank">
-									<i class="fa fa-facebook"></i><i class="fa fa-facebook"></i>
-									</a>
-								</li>
-								<li class="twitter">
-									<a href="http://twitter.com" target="_blank">
-									<i class="fa fa-twitter"></i>
-									<i class="fa fa-twitter"></i>
-									</a>
-								</li>
-								<li class="google-plus">
-									<a href="http://google.com" target="_blank">
-									<i class="fa fa-google-plus"></i>
-									<i class="fa fa-google-plus"></i>
-									</a>
-								</li>
+		    <div class="row">
+		        <a class="logo" href="#">White Dove Wedding Dresses</a>
 
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--End of Top Bar-->
+		        <div class="mobile-toggle">
+		            <span></span>
+		            <span></span>
+		            <span></span>
+		        </div>
 
-		<!--Navigation-->
-		<!-- HEADER -->
-    <!--Navigation-->
-		<!-- HEADER -->
-		<header id="header-main">
-			<div class="container">
-				<div class="navbar yamm navbar-default">
-					<div class="navbar-header">
+		        <nav>
+		            <ul>
+		                <li><a href=".sec01">Bride dresses</a></li>
+		                <li><a href=".sec02">Brides maid dresses</a></li>
+		                <li><a href=".sec03">Contact Us</a></li>
+		                <li><a href=".sec04">Section 04</a></li>
+		            </ul>
+		        </nav>
 
-						<button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						</button>
-						<a href="index.html" class="navbar-brand"><img src="img/logo.jpg" width="40" alt=""/></a>
+		    </div> <!-- / row -->
 
-					</div>
-
-					<div id="navbar-collapse-1" class="navbar-collapse collapse navbar-right">
-						<ul class="nav navbar-nav">
-							<li> <a href="index.html">Home</a> </li>
-							<li> <a href="services.html">Services</a> </li>
-							<li> <a href="contact.html">Contact</a> </li>
-						</ul>
-					</div>
-				</div>
-			</div>
 		</header>
-		<!--End of Navigation-->
+
+		<div class="hero">
+
+		    <h1><span>Precise</span><br>Wedding Perfection</h1>
+
+		    <div class="mouse">
+		        <span></span>
+		    </div>
+
+		</div>
+
+		<div class="row content">
+		    <h1 class=".sec01">Brides Dresses</h1>
+				<p> There are different kinds of weddin dresses </p>
+
+	 <div class="row">
+	   <div class="column">
+	     <img src="img/tumblr_nhn00zuMQS1r9apfzo1_500.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+	   </div>
+		 <div class="column">
+    <img src="img/Gorgeous-Long-Sleeve-Lace-Ball-Gown-Wedding-Dress-WDWD2817-a_1.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/aline.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+	<div class="column">
+		<img src="img/sheath.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+	</div>
+</div>
+	 <div id="myModal" class="modal">
+	   <span class="close cursor" onclick="closeModal()">&times;</span>
+	   <div class="modal-content">
+
+	     <div class="mySlides">
+	       <div class="numbertext">1 / 4</div>
+	       <img src="img/Gorgeous-Long-Sleeve-Lace-Ball-Gown-Wedding-Dress-WDWD2817-a_1.jpg" style="width:100%">
+	     </div>
+
+	     <div class="mySlides">
+	       <div class="numbertext">2 / 4</div>
+	       <img src="img/aline.jpg" style="width:100%">
+	     </div>
+
+	     <div class="mySlides">
+	       <div class="numbertext">3 / 4</div>
+	       <img src="img/modifiedaline.jpg" style="width:100%">
+	     </div>
+
+	     <div class="mySlides">
+	       <div class="numbertext">4 / 4</div>
+	       <img src="img/trumpet.jpg" style="width:100%">
+	     </div>
+
+	     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	     <div class="caption-container">
+	       <p id="caption"></p>
+	     </div>
 
 
+	     <div class="column">
+	       <img class="demo cursor" src="img/Gorgeous-Long-Sleeve-Lace-Ball-Gown-Wedding-Dress-WDWD2817-a_1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+	     </div>
+	     <div class="column">
+	       <img class="demo cursor" src="img/modifiedaline.jpg" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+	     </div>
+	     <div class="column">
+	       <img class="demo cursor" src="img/modifiedaline.jpg"style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+	     </div>
+	     <div class="column">
+	       <img class="demo cursor" src="img/modifiedaline.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+	     </div>
+	   </div>
+	 </div>
 
-    <!--Footer Area-->
-		<footer>
+		    <h1 class=".sec02">Brides Maid Dresses</h1>
+		    <p>Different styles if brides maid dresses</p>
+		    <h1 class=".sec03">Contact Us</h1>
+				<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-			<div class="col-lg-6"><p>Your Wedding Planning Adventure Starts Here</p></div>
-			<div class="col-lg-6"><p>&copy; Copyright of the Wedding Planner Corporation All Rights Reserved</p></div>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-		</footer>
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Kenya</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+			<option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+		    <h1 class=".sec04">Section 04</h1>
+		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+		</div>
 
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
