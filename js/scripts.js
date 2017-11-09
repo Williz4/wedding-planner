@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(window).scroll(function() {
 
 	var wScroll = $(this).scrollTop();
@@ -16,3 +17,12 @@ $(window).scroll(function() {
 	}
  
 });
+=======
+$(document).ready(function() {
+		$("form #submit").click(function() {
+
+  	var email= $(".Email").val();
+    alert(email+" "+"has been successfully added to our list of subscribers.Thank you");
+  });
+});
+>>>>>>> 172184d0766f3dc6f06c53b79349b10c9aec4fcc
