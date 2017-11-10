@@ -1,0 +1,355 @@
+/*attires section css*/
+
+.attire-section {
+    background-color: #f0c7d3;
+}
+
+.text-center {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.row2 {
+    margin-right: -15px;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.hidden {
+    display: none;
+}
+
+.displayed {
+  padding-bottom: 10px;
+}
+
+.displayed span {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  font-size: 35px;
+  z-index: 2;
+  text-align: justify;
+  font-style:oblique;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.displayed img:hover {
+    opacity: .5;
+}
+
+.displayed img {
+  background: #ff5b8b;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.displayed2 {
+  padding-bottom: 10px;
+}
+
+.displayed2 span {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  font-size: 35px;
+  z-index: 2;
+  text-align: justify;
+  font-style:oblique;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.displayed2 img:hover {
+    opacity: .5;
+}
+
+.displayed2 img {
+  background: #ff5b8b;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+/*food section css*/
+
+.food-section {
+    background-color: white;
+    color: #ff5b8b;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 5px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.btn-cake3 {
+  padding: 3px;
+}
+
+.btn-cake2 {
+  padding: 3px;
+}
+.btn-cake1 {
+  padding: 3px;
+}
+
+/*wedding cakes section lightbox*/
+
+/*Eliminates padding, centers the thumbnail */
+body, html {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* Styles the thumbnail */
+a.lightbox img {
+  height: 350px;
+  border: 3px solid white;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+}
+
+/* Styles the lightbox, removes it from sight and adds the fade-in transition */
+.lightbox-target {
+  position: absolute;
+  top: -100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+  overflow: hidden;
+}
+
+/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+.lightbox-target img {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 0%;
+  max-width: 0%;
+  border: 3px solid white;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+/* Styles the close link, adds the slide down transition */
+a.lightbox-close {
+  display: block;
+  width: 60px;
+  height: 50px;
+  box-sizing: border-box;
+  background: white;
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  top: -80px;
+  right: 0;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+a.lightbox-close:before {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 1px;
+  background: black;
+  position: absolute;
+  left: 26px;
+  top: 10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+a.lightbox-close:after {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 1px;
+  background: black;
+  position: absolute;
+  left: 26px;
+  top: 10px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+.lightbox-target:target {
+  opacity: 1;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: pink;
+  left: 0;
+  background-position: center center;
+  background-size: contain;
+  height: 700px;
+}
+
+.lightbox-target:target img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+  top: 0px;
+}
+/*end of lightbox*/
+
+.fork {
+    margin: 2%;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    box-shadow: 0px 5px 5px grey;
+}
+
+.fork img {
+    height: 236px;
+    width: 250px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.columning {
+    float: left;
+    padding: 5px;
+}
+
+p.wed-cakes{
+  color: pink;
+}
+
+/* Create two equal columns that floats next to each other */
+.columning {
+    float: left;
+    padding: 5px;
+}
+
+.columning img {
+    margin-top: 12px;
+}
+
+.btn-cake6 {
+  padding: 3px;
+}
+
+.btn-cake5 {
+  padding: 3px;
+}
+.btn-cake4 {
+  padding: 3px;
+}
+
+/*catering section*/
+.catering-section {
+    background-color: #f0c7d3;
+}
+
+/*services section*/
+.services-section {
+    background-color: white;
+    color: #ff5b8b;
+}
+
+#services h2 {
+    color: #ff5b8b;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Arapey', serif;
+}
+
+/*florist section*/
+.florist-section {
+  background-color: #f0c7d3;
+}
+
+/*testimonials section*/
+.testimonials-section {
+  background-color: #f0c7d3;
+}
+
+.container1 {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.container1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container1 img {
+  float: left;
+  margin-right: 20px;
+}
+
+.container1 span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container1 {
+      text-align: center;
+  }
+  .container1 img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
