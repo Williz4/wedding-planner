@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(window).scroll(function() {
 
 	var wScroll = $(this).scrollTop();
@@ -15,5 +16,55 @@ $(window).scroll(function() {
 
 	}
  
+=======
+$(document).ready(function() {
+	$( ".displayed" ).hover(
+	  function() {
+	    $( ".displayed span" ).toggleClass("hidden");
+  });
+
+	$( "img.displayed" ).hover(function() {
+	  $( this ).fadeOut( 100 );
+	  $( this ).fadeIn( 500 );
+	});
+
+
+
+	$( ".displayed2" ).hover(
+		function() {
+			$( ".displayed2 span" ).toggleClass("hidden");
+	});
+
+	$( "img.displayed2" ).hover(function() {
+		$( this ).fadeOut( 100 );
+		$( this ).fadeIn( 500 );
+	});
+
+
+		// Four images side by side
+		document.querySelector('.btn-cake6').addEventListener('click', function() {
+		 var columns = document.getElementsByClassName('columning');
+		 for (i = 0; i < columns.length; i++) {
+			columns[i].style.width = "21%";
+				}
+			});
+
+		// Two images side by side
+		document.querySelector('.btn-cake5').addEventListener('click', function() {
+		var columns = document.getElementsByClassName('columning');
+		for (i = 0; i < columns.length; i++) {
+		 columns[i].style.width = "20.5%";
+			 }
+		 });
+
+		 // Full-width images
+		 document.querySelector('.btn-cake4').addEventListener('click', function() {
+		 var columns = document.getElementsByClassName('columning');
+		 for (i = 0; i < columns.length; i++) {
+			columns[i].style.width = "20%";
+				}
+			});
+
+>>>>>>> e86f98646b5581d1a52072806f6c7ebe4f40b430
 });
 

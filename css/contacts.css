@@ -606,7 +606,7 @@ footer .col-lg-6 p {
 /*Footer Styling Ends Here*/
 
 .con {
-  background-image: url(/home/david/Documents/wedding-planner/img/wedding3.jpg);
+  background-image: url(../img/wedding3.jpg);
   height: 800px;
   width: 100%;
   display: flex;
@@ -680,7 +680,7 @@ footer .col-lg-6 p {
 }
 
 .choose{
-  background-image: url(/home/david/Documents/wedding-planner/img/wedding1.jpg);
+  background-image: url(../img/wedding1.jpg);
   height: 800px;
   width: 100%;
   display: flex;
