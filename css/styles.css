@@ -542,6 +542,10 @@ background:transparent !important;
  border: 10px solid rgb(240, 199, 211);
 }
 
+#services {
+  width: 100%;
+}
+
 #services h2 {
   color: rgb(240, 199, 211);
   text-align: center;
@@ -549,6 +553,45 @@ background:transparent !important;
   margin-bottom: 40px;
   font-family: 'Philosopher', sans-serif;
 }
+
+#services p {
+  font-size: 1.3em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.row-img {
+  text-align: center;
+}
+
+.row-img figure {
+  margin-bottom: 40px;
+}
+
+.row-img figure img{
+  margin-bottom: 20px;
+}
+
+
+.row-img figure figcaption{
+  font-size: 1.3em;
+  color: rgb(240, 199, 211);
+  font-weight: 600;
+}
+
+#servicez figure {
+  margin-bottom: 20px; 
+  position: relative;
+  opacity: 0;
+  transform: translate(-20px);
+  transition: all 0.3s ease-in-out;
+}
+
+#servicez figure.is-showing {
+  opacity: 1;
+  transform: translate(0px);
+}
+
 /*Content Styling Ends Here*/
 
 /*Footer Styling Starts Here*/
@@ -562,10 +605,6 @@ footer {
   display: flex;
   align-items: center;
 }
-
-/*footer .col-lg-6 {
-  line-height: 100px;
-}*/
 
 footer .col-lg-6 p {
   color: rgb(255, 255, 255);
