@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-$(window).scroll(function() {
-
-	var wScroll = $(this).scrollTop();
-
-	if(wScroll > $('#servicez').offset().top - $(window).height() / 1.2) {
-
-		$('#servicez .figure').each(function(i){
-			
-		setTimeout(function() {
-			$('#servicez .figure').eq(i).addClass('is-showing');
-			
-			}, 120 * (i + 1));
-
-		});
-
-	}
- 
-=======
 $(document).ready(function() {
 	$( ".displayed" ).hover(
 	  function() {
@@ -65,6 +46,26 @@ $(document).ready(function() {
 				}
 			});
 
->>>>>>> e86f98646b5581d1a52072806f6c7ebe4f40b430
+
 });
 
+});
+$(window).scroll(function() {
+
+	var wScroll = $(this).scrollTop();
+
+	if(wScroll > $('#servicez').offset().top - $(window).height() / 1.2) {
+
+		$('#servicez .figure').each(function(i){
+
+			setTimeout(function() {
+				$('#servicez .figure').eq(i).addClass('is-showing');
+
+			}, 120 * (i + 1));
+
+		});
+
+	}
+
+
+});

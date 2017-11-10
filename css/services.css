@@ -311,11 +311,15 @@ p.wed-cakes{
 
 /*florist section*/
 .florist-section {
-    background-color: #f0c7d3;
+  background-color: #f0c7d3;
 }
 
-/*testimonials*/
-.container {
+/*testimonials section*/
+.testimonials-section {
+  background-color: #f0c7d3;
+}
+
+.container1 {
   border: 2px solid #ccc;
   background-color: #eee;
   border-radius: 5px;
@@ -323,28 +327,28 @@ p.wed-cakes{
   margin: 16px 0
 }
 
-.container::after {
+.container1::after {
   content: "";
   clear: both;
   display: table;
 }
 
-.container img {
+.container1 img {
   float: left;
   margin-right: 20px;
   border-radius: 50%;
 }
 
-.container span {
+.container1 span {
   font-size: 20px;
   margin-right: 15px;
 }
 
 @media (max-width: 500px) {
-  .container {
+  .container1 {
       text-align: center;
   }
-  .container img {
+  .container1 img {
       margin: auto;
       float: none;
       display: block;
